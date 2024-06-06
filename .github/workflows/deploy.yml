@@ -24,7 +24,7 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker buildx build --push --tag <your-dockerhub-username>/hello-world-nodejs:latest .
+          docker buildx build --push --tag abhishek1805/hello-world-nodejs:latest .
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
